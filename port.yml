@@ -1,7 +1,7 @@
 identifier: idp-integrations-worker-service
 title: idp-integrations-worker-service
 blueprint: service
-team: ["Fabric Tooling DevEx IDP"]
+team: ["idp-integrations-worker-service"]
 properties:                     
   description: "An implementation of universal blueprint-centric event processing that handles events from multiple sources (ArgoCD, GitHub, AWS, etc.) to generate fully ordered and complete entity and relation creation payloads for Port's Internal Developer Platform"
   customer_facing: false
