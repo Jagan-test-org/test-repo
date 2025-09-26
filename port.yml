@@ -1,0 +1,14 @@
+identifier: idp-integrations-worker-service
+title: idp-integrations-worker-service
+blueprint: service
+team: ["Fabric Tooling DevEx IDP"]
+properties:                     
+  description: "An implementation of universal blueprint-centric event processing that handles events from multiple sources (ArgoCD, GitHub, AWS, etc.) to generate fully ordered and complete entity and relation creation payloads for Port's Internal Developer Platform"
+  customer_facing: false
+  slack: "https://smarsh.slack.com/archives/C07A3KVLD5K"
+  vault: ["https://vault.1cp.us-west-2.aws.enklavo.com:8200", "https://vault.1cp.us-east-1.aws.enklavo.com:8200"]
+  repo_type: Python Service
+  url: "https://github.com/Smarsh/idp-integrations-worker-service"
+relations:
+    product: "fabric"
+    code_owners: ["udbhav.agarwal@smarsh.com","rohit.kumar@smarsh.com","mridul.bagri@smarsh.com"]
