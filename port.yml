@@ -1,0 +1,16 @@
+identifier: dummy-service-123
+title: My Dummy Service
+blueprint: service
+team: ["Platform Engineering", "DevOps Team"]
+properties:
+  description: "This is a dummy service for demonstration purposes with sample configuration"
+  customer_facing: true
+  slack: "https://example.slack.com/archives/C123456789"
+  monitor_dashboards: ["https://app.datadoghq.com/dashboard/abc-123", "https://grafana.example.com/d/xyz-456"]
+  logs: ["https://kibana.example.com/app/discover#/logs-prod", "https://splunk.example.com/app/search"]
+  vault: ["https://vault.prod.example.com:8200", "https://vault.staging.example.com:8200"]
+  documentation: ["https://docs.example.com/services/dummy-service", "https://wiki.example.com/pages/123456/Architecture"]
+  repo_type: backend
+relations:
+  product: "example-product"
+  code_owners: ["john.doe@example.com", "jane.smith@example.com"]
